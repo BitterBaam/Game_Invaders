@@ -2,11 +2,6 @@ function setup() {
   // put setup code here
   createCanvas(windowWidth, windowHeight)
   .parent("sketch-holder")
-
-  for(let i = 0; i < 10; i++)
-  {
-    player.shot()
-  }
 }
 
 function draw() {
